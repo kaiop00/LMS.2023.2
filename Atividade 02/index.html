@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Tarefas</title>
+</head>
+<body>
+    <header> <!--  É utilizado para representar o cabeçalho  -->
+         <h1>Organizador de Tarefas</h1> 
+         <h3>Tarefas Pendentes:</h3> 
+    </header>
+
+    <nav>  <!-- É utilizado quando precisamos representar um agrupamento de links de navegação -->
+        <ul>  
+            <li>Shopee</li>
+                <a href="https://shopee.com.br" >Comprar acessorio na Shopee </a>
+            <li>Moodle</li>
+                <a href="https://moodle2.quixada.ufc.br/login/index.php">Terminar atividade do moodle</a>
+  
+        <h3>Terminou tudo...</h3>
+                <a href="https://www.netflix.com/browse"><img
+                        src="imagem.jpg" alt="dragon ball classico" width="300px" height="300px" /></a>
+             
+
+
+    </nav>
+    
+    <nav>
+        <table border="3px" > <!-- tabela com borda para poder separar... o mais correto seria fazer no stile.css mas nao sei se o senhor permite fazer!  -->
+            <tr>
+                <th colspan="2">Tarefas Pendentes</th>
+            <tr>
+                <td>Realizar as Atividades de LMS</td>
+                <td><b>AMANHÃ</b></td>
+            </tr>
+            <tr>
+                <td>Estudar novo conteúdo de PAA</td>
+                <td>Próxima semana </td>
+            </tr>
+            <tr>
+                <td><b>Começar Trabalho de A.S.</b></td>
+                <td> 25/08/2023</td>
+            </tr>
+        </table>
+
+    </nav>
+
+    <header> 
+    <h1>Formulário de Cadastro</h1>
+    </header>
+
+    <form action="https://www.w3schools.com/action_page.php" method="GET">
+        <label for="nome">Nome (até 15 caracteres):</label>
+        <input type="text" id="nome" name="nome" maxlength="15" required>
+        <br>
+        <br>
+        <label for="apenas-leitura">Digite suas informações corretamente.</label>
+        <input type="text" id="apenas-leitura" name="apenas-leitura" readonly value="EX: Nome: Kaio">
+        <br>
+        <br>
+        <label for="numero">Número (entre 25000 e 30000):</label>
+        <input type="number" id="numero" name="numero" min="25000" max="30000" required>
+        <br>
+        <br>
+        <label>Gênero:</label><br>
+        <input type="radio" id="genero-masculino" name="genero" value="masculino">
+        <label for="genero-masculino">Masculino</label>
+        <br>
+        <input type="radio" id="genero-feminino" name="genero" value="feminino">
+        <label for="genero-feminino">Feminino</label>
+        <br>
+        <br>
+        <input type="checkbox" id="interesse1" name="interesses" value="interesse1">
+        <label for=1">1</label>
+        <br>
+        <input type="checkbox" id="interesse2" name="interesses" value="interesse2">
+        <label for="2">2</label>
+        <br>
+        <br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
+
+      
+
+       
+</body>
+</html>
